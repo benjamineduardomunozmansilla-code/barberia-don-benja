@@ -1,5 +1,5 @@
 // 1. Configuración centralizada del negocio (Cambias el teléfono aquí y se actualiza en toda la web)
-const TELEFONO_BARBERIA = "56912345678"; // Reemplazar por el número real en formato 569...
+const TELEFONO_BARBERIA = "56996096931"; // Reemplazar por el número real en formato 569...
 
 // 2. Detectar clic en cualquier botón de servicio y armar mensaje personalizado
 const botonesServicio = document.querySelectorAll(".btn-card");
