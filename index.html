@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería Don Benja | Cortes y Barba en Temuco</title>
+  <meta name="description" content="Cortes clásicos, degradados y perfilado de barba en Temuco. Agenda tu hora directo por WhatsApp.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO / BARRA SUPERIOR -->
+  <header class="navbar">
+    <div class="contenedor nav-contenido">
+      <a href="#" class="logo">✂️ Barbería <span>Don Benja</span></a>
+      <a href="https://wa.me/56912345678?text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20agendar%20una%20hora." 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="btn btn-sm">
+        Agendar Hora
+      </a>
+    </div>
+  </header>
+
+  <!-- PORTADA PRINCIPAL (HERO) -->
+  <main>
+    <section class="hero">
+      <div class="contenedor hero-contenido">
+        <span class="badge">📍 Atención en Temuco • Sin esperas</span>
+        <h1>Tu mejor corte, sin perder tiempo en filas</h1>
+        <p>Especialistas en degradados (fade), corte clásico y perfilado de barba con toalla caliente. Reserva tu cupo en 10 segundos.</p>
+        <div class="hero-botones">
+          <a href="https://wa.me/56912345678?text=Hola%20Don%20Benja%2C%20quiero%20reservar%20una%20hora%20hoy." 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn btn-principal">
+            📲 Reservar por WhatsApp
+          </a>
+          <a href="#servicios" class="btn btn-secundario">Ver Precios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE SERVICIOS Y PRECIOS -->
+    <section id="servicios" class="seccion">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Servicios y Tarifas</h2>
+        <p class="subtitulo-seccion">Elige tu servicio y agenda directo con un toque</p>
+
+        <div class="grid-servicios">
+          <!-- Servicio 1 -->
+          <article class="card-servicio">
+            <div class="card-header">
+              <h3>Corte Clásico / Fade</h3>
+              <span class="precio">$10.000</span>
+            </div>
+            <p>Degradado limpio a máquina o tijera, lavado rápido y peinado con cera.</p>
+            <button class="btn btn-card" data-servicio="Corte Clásico / Fade ($10.000)">
+              Agendar este corte
+            </button>
+          </article>
+
+          <!-- Servicio 2 -->
+          <article class="card-servicio destacada">
+            <span class="etiqueta-top">Más pedido</span>
+            <div class="card-header">
+              <h3>Combo Corte + Barba</h3>
+              <span class="precio">$14.000</span>
+            </div>
+            <p>Corte completo más perfilado de barba con navaja, toalla caliente y aceites.</p>
+            <button class="btn btn-card" data-servicio="Combo Corte + Barba ($14.000)">
+              Agendar combo
+            </button>
+          </article>
+
+          <!-- Servicio 3 -->
+          <article class="card-servicio">
+            <div class="card-header">
+              <h3>Perfilado de Barba</h3>
+              <span class="precio">$6.000</span>
+            </div>
+            <p>Definición precisa de contornos, rebaje uniforme e hidratación.</p>
+            <button class="btn btn-card" data-servicio="Perfilado de Barba ($6.000)">
+              Agendar barba
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN HORARIOS Y MAPA -->
+    <section id="ubicacion" class="seccion seccion-oscura">
+      <div class="contenedor grid-ubicacion">
+        <div class="info-local">
+          <h2>Dónde encontrarnos</h2>
+          <p><strong>Dirección:</strong> Av. Alemania 0450, Temuco (A pasos del centro).</p>
+          <ul class="lista-horarios">
+            <li><strong>Lunes a Viernes:</strong> 10:00 a 20:00 hrs.</li>
+            <li><strong>Sábados:</strong> 10:00 a 18:00 hrs.</li>
+            <li><strong>Domingos:</strong> Cerrado</li>
+          </ul>
+          <a href="https://maps.google.com/?q=Av.+Alemania+Temuco" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn btn-secundario">
+            🗺️ Abrir en Google Maps
+          </a>
+        </div>
+
+        <div class="mapa-contenedor">
+          <!-- Mapa real de Temuco incrustado -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.186919147644!2d-72.613984!3d-38.736475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d3e3b4e0f0b1%3A0x8f8f8f8f8f8f8f8f!2sAv.%20Alemania%2C%20Temuco%2C%20Araucan%C3%ADa!5e0!3m2!1ses!2scl!4v1700000000000" 
+            width="100%" 
+            height="280" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="contenedor">
+      <p>© <span id="anio-actual"></span> Barbería Don Benja - Temuco, Chile.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a href="https://wa.me/56912345678?text=Hola%2C%20necesito%20consultar%20disponibilidad." 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="whatsapp-flotante" 
+     aria-label="Contactar por WhatsApp">
+    💬
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
